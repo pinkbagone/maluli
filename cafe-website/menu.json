@@ -1,0 +1,121 @@
+{
+  "ui": {
+    "menuTitle": {
+      "ka": "ჩვენი მენიუ",
+      "en": "Our Menu",
+      "ru": "Наше Меню"
+    },
+    "tagline": {
+      "ka": "კარგი ყავის წყნარი ადგილი.",
+      "en": "A quiet place for good coffee.",
+      "ru": "Тихое место для хорошего кофе."
+    },
+    "findUs": {
+      "ka": "გვიპოვე",
+      "en": "Find Us",
+      "ru": "Найдите Нас"
+    },
+    "hours": {
+      "ka": "ყოველდღე 10:00 – 22:00",
+      "en": "Open daily 10am – 10pm",
+      "ru": "Ежедневно 10:00 – 22:00"
+    },
+    "address": {
+      "ka": "ჩიქოვანის ქუჩა, თბილისი",
+      "en": "Chikovani Street, Tbilisi",
+      "ru": "Улица Чиковани, Тбилиси"
+    },
+    "all": {
+      "ka": "ყველა",
+      "en": "All",
+      "ru": "Все"
+    }
+  },
+  "categories": [
+    {
+      "name": {
+        "ka": "ყავა",
+        "en": "Coffee",
+        "ru": "Кофе"
+      },
+      "items": [
+        { "name": { "ka": "ესპრესო",    "en": "Espresso",   "ru": "Эспрессо"   }, "price": "3.00", "image": "images/espresso.jpg" },
+        { "name": { "ka": "ამერიკანო",  "en": "Americano",  "ru": "Американо"  }, "price": "3.50", "image": "images/americano.jpg" },
+        { "name": { "ka": "კაპუჩინო",  "en": "Cappuccino", "ru": "Капучино"   }, "price": "4.00", "image": "images/cappuccino.jpg" },
+        { "name": { "ka": "ლატე",       "en": "Latte",      "ru": "Латте"      }, "price": "4.50", "image": "images/latte.jpg" }
+      ]
+    },
+    {
+      "name": {
+        "ka": "ჩაი",
+        "en": "Tea",
+        "ru": "Чай"
+      },
+      "items": [
+        { "name": { "ka": "მწვანე ჩაი",  "en": "Green Tea",  "ru": "Зелёный чай" }, "price": "3.00", "image": "images/green-tea.jpg" },
+        { "name": { "ka": "ერლ გრეი",    "en": "Earl Grey",  "ru": "Эрл Грей"    }, "price": "3.00", "image": "images/earl-grey.jpg" },
+        { "name": { "ka": "რომაშო",      "en": "Chamomile",  "ru": "Ромашка"     }, "price": "3.50", "image": "images/chamomile.jpg" }
+      ]
+    },
+    {
+      "name": {
+        "ka": "ცივი სასმელები",
+        "en": "Cold Drinks",
+        "ru": "Холодные напитки"
+      },
+      "items": [
+        { "name": { "ka": "ყინულის ლატე",  "en": "Iced Latte",     "ru": "Айс латте"    }, "price": "5.00", "image": "images/iced-latte.jpg" },
+        { "name": { "ka": "კოლდ ბრიუ",     "en": "Cold Brew",      "ru": "Колд брю"     }, "price": "5.50", "image": "images/cold-brew.jpg" },
+        { "name": { "ka": "ლიმონათი",      "en": "Fresh Lemonade", "ru": "Лимонад"      }, "price": "4.00", "image": "images/lemonade.jpg" }
+      ]
+    },
+    {
+      "name": {
+        "ka": "საცხობი",
+        "en": "Pastries",
+        "ru": "Выпечка"
+      },
+      "items": [
+        { "name": { "ka": "კრუასანი",      "en": "Croissant",     "ru": "Круассан"    }, "price": "3.00", "image": "images/croissant.jpg" },
+        { "name": { "ka": "დარიჩინის რულო","en": "Cinnamon Roll", "ru": "Синнабон"    }, "price": "3.50", "image": "images/cinnamon-roll.jpg" },
+        { "name": { "ka": "ნუშის დანიში",  "en": "Almond Danish", "ru": "Миндальный даниш" }, "price": "4.00", "image": "images/danish.jpg" }
+      ]
+    },
+    {
+      "name": {
+        "ka": "სენდვიჩები",
+        "en": "Sandwiches",
+        "ru": "Сэндвичи"
+      },
+      "items": [
+        { "name": { "ka": "კლუბ სენდვიჩი", "en": "Club Sandwich", "ru": "Клуб сэндвич" }, "price": "7.00", "image": "images/club.jpg" },
+        { "name": { "ka": "BLT",            "en": "BLT",           "ru": "БЛТ"          }, "price": "6.50", "image": "images/blt.jpg" },
+        { "name": { "ka": "ტუნას მელტი",   "en": "Tuna Melt",     "ru": "Тuna мелт"    }, "price": "7.00", "image": "images/tuna-melt.jpg" }
+      ]
+    },
+    {
+      "name": {
+        "ka": "დესერტები",
+        "en": "Desserts",
+        "ru": "Десерты"
+      },
+      "items": [
+        { "name": { "ka": "შოკოლადის მაფინი", "en": "Chocolate Muffin", "ru": "Шоколадный маффин" }, "price": "3.50", "image": "images/muffin.jpg" },
+        { "name": { "ka": "ჩიზქეიქი",         "en": "Cheesecake",       "ru": "Чизкейк"          }, "price": "5.00", "image": "images/cheesecake.jpg" },
+        { "name": { "ka": "ბრაუნი",            "en": "Brownie",          "ru": "Брауни"           }, "price": "3.50", "image": "images/brownie.jpg" }
+      ]
+    },
+    {
+      "name": {
+        "ka": "საუზმე",
+        "en": "Breakfast",
+        "ru": "Завтрак"
+      },
+      "items": [
+        { "name": { "ka": "ავოკადოს ტოსტი", "en": "Avocado Toast", "ru": "Тост с авокадо" }, "price": "7.00", "image": "images/avocado-toast.jpg" },
+        { "name": { "ka": "კვერცხი და ყველი","en": "Egg & Cheese",  "ru": "Яйцо и сыр"    }, "price": "6.00", "image": "images/egg-cheese.jpg" },
+        { "name": { "ka": "გრანოლა",         "en": "Granola Bowl",  "ru": "Гранола"        }, "price": "5.50", "image": "images/granola.jpg" }
+      ]
+    }
+  ]
+}

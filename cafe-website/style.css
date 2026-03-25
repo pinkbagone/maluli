@@ -1,0 +1,251 @@
+/* ── FONTS & RESET ───────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #faf8f5;
+  color: #1a1a1a;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* ── LANGUAGE SWITCHER ───────────────────────────────────── */
+#lang-switcher {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+  padding: 12px 20px 0;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  opacity: 0.35;
+  transition: opacity 0.2s ease;
+  padding: 4px;
+}
+
+.lang-btn:hover {
+  opacity: 0.7;
+}
+
+.lang-btn.active {
+  opacity: 1;
+}
+
+/* ── HERO ────────────────────────────────────────────────── */
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 24px 32px;
+  gap: 4px;
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 0px;
+}
+
+#hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#hero p {
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: #888;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+/* ── DIVIDER ─────────────────────────────────────────────── */
+.divider {
+  width: 40px;
+  height: 1px;
+  background-color: #1a1a1a;
+  margin: 0 auto 40px;
+}
+
+/* ── MENU ────────────────────────────────────────────────── */
+#menu {
+  padding: 0 24px 48px;
+}
+
+#menu h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+/* ── CATEGORY NAV ────────────────────────────────────────── */
+#category-nav {
+  position: sticky;
+  top: 0;
+  background-color: #faf8f5;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 12px 24px;
+  margin: 0 -24px 24px;
+  scrollbar-width: none;
+  z-index: 100;
+  border-bottom: 1px solid #eeebe6;
+}
+
+#category-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.cat-btn {
+  flex-shrink: 0;
+  background: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: #888;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cat-btn:hover {
+  border-color: #1a1a1a;
+  color: #1a1a1a;
+}
+
+.cat-btn.active {
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+  color: #faf8f5;
+}
+
+/* ── CATEGORY BLOCK ──────────────────────────────────────── */
+.category {
+  margin-bottom: 36px;
+}
+
+.category h3 {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* ── MENU ITEMS ──────────────────────────────────────────── */
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.item-img {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+  background-color: #f0ede8;
+}
+
+.item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.item-name {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #1a1a1a;
+}
+
+.item-price {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #888;
+}
+
+/* ── SOCIALS ─────────────────────────────────────────────── */
+#socials {
+  padding: 0 24px 48px;
+  text-align: center;
+}
+
+#socials h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+#social-links a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  border-bottom: 1px solid #1a1a1a;
+  padding-bottom: 2px;
+  transition: opacity 0.2s ease;
+}
+
+#social-links a:hover {
+  opacity: 0.4;
+}
+
+/* ── FOOTER ──────────────────────────────────────────────── */
+footer {
+  border-top: 1px solid #eeebe6;
+  padding: 32px 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+footer p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #aaa;
+  letter-spacing: 0.05em;
+}
