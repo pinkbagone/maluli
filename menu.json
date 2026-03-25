@@ -41,8 +41,8 @@
       "items": [
         { "name": { "ka": "ესპრესო",    "en": "Espresso",   "ru": "Эспрессо"   }, "price": "3.00", "image": "images/espresso.jpg" },
         { "name": { "ka": "ამერიკანო",  "en": "Americano",  "ru": "Американо"  }, "price": "3.50", "image": "images/americano.jpg" },
-        { "name": { "ka": "კაპუჩინო",  "en": "Cappuccino", "ru": "Капучино"   }, "price": "4.00", "image": "images/cappuccino.jpg" },
-        { "name": { "ka": "ლატე",       "en": "Latte",      "ru": "Латте"      }, "price": "4.50", "image": "images/latte.jpg" }
+        { "name": { "ka": "კაპუჩინო",  "en": "Cappuccino", "ru": "Капучино"   }, "price": "4.00", "image": "images/khachapuri.jpg" },
+        { "name": { "ka": "ლატე",       "en": "Latte",      "ru": "Латте"      }, "price": "4.50", "image": "images/eggs.jpg" }
       ]
     },
     {
@@ -52,7 +52,7 @@
         "ru": "Чай"
       },
       "items": [
-        { "name": { "ka": "მწვანე ჩაი",  "en": "Green Tea",  "ru": "Зелёный чай" }, "price": "3.00", "image": "images/green-tea.jpg" },
+        { "name": { "ka": "მწვანე ჩაი",  "en": "Green Tea",  "ru": "Зелёный чай" }, "price": "3.00", "image": "images/cookie.jpg" },
         { "name": { "ka": "ერლ გრეი",    "en": "Earl Grey",  "ru": "Эрл Грей"    }, "price": "3.00", "image": "images/earl-grey.jpg" },
         { "name": { "ka": "რომაშო",      "en": "Chamomile",  "ru": "Ромашка"     }, "price": "3.50", "image": "images/chamomile.jpg" }
       ]
